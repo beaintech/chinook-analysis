@@ -5,6 +5,29 @@ The goal is to uncover business insights such as top-selling genres, artists, cu
 
 ---
 
+## 🔧 Installation & Run
+
+Clone the repository and set up the environment:
+
+```bash
+# 1️⃣ Clone this project
+git clone https://github.com/<your-username>/chinook-analysis.git
+cd chinook-analysis
+
+# 2️⃣ (Optional) Create a virtual environment
+python3 -m venv venv
+source venv/bin/activate          # on macOS / Linux
+# or
+venv\Scripts\activate             # on Windows
+
+# 3️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 4️⃣ Run the main analysis script
+python main.py
+
+----
+
 ## 📊 Project Overview
 
 The Chinook database simulates a digital music shop that stores information about:
